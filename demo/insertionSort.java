@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class Sorting{
+public class insertionSort{
     public static void main(String args[]){
         System.out.print("Enter length of array: ");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int A[]=new int[n];
-         System.out.print("Enter element of array: ");
+        System.out.print("Enter element of array: ");
         for(int i=0; i<n; i++){
             A[i]=sc.nextInt();
         }
@@ -18,7 +18,7 @@ public class Sorting{
                 A[j+1]=A[j];
                 j--;
             }
-            A[j+1]=curr;
+            A[j+1]=cur;
         }
         System.out.print("Sorted element of array: ");
         for(int i=0; i<n; i++){
