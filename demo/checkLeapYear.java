@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Radix {
+public class checkLeapYear {
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
         int year;
