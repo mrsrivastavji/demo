@@ -24,4 +24,6 @@ class Strings {
         else{
             System.out.println("Both name are not same");
         }
+    }
 }
+
