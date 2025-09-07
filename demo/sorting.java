@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sorting{
+public class sorting{
     public static void printNum(int n){
         if(n==0){
             return;

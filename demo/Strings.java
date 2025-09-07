@@ -1,6 +1,6 @@
 import java.util.*;
 // Strings are immutable
-public class Strings {
+class Strings {
     public static void main(String[] args) {
         String name= "shivam srivastav";
         String fullName= "Shivam Srivastav";

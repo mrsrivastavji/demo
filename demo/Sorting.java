@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sorting{
+class Sorting{
     public static void main(String args[]){
         System.out.print("Enter length of array: ");
         Scanner sc=new Scanner(System.in);

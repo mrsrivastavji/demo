@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BuilderString{
+class BuilderString{
     public static void main(String args[]){
         StringBuilder sb = new StringBuilder("H");
         System.out.println(sb);
